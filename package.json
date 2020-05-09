@@ -1,0 +1,51 @@
+{
+  "name": "wechat-assistant",
+  "version": "2.1.5",
+  "description": "微信小助手2.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development ./node_modules/.bin/nodemon koa/bin/www",
+    "pm2": "pm2 start koa/pm2.json",
+    "pm2-wechaty": "pm2 start wechaty/pm2.json --interpreter babel-node",
+    "koa": "cross-env NODE_ENV=product node koa/bin/www",
+    "start": "babel-node wechaty/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Xposean",
+  "license": "MIT",
+  "keywords": [
+    "koa",
+    "mongodb",
+    "wechaty",
+    "mongoose",
+    "微信机器人",
+    "微信助手",
+    "node",
+    "js"
+  ],
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "cross-env": "^5.2.0",
+    "crypto": "^1.0.1",
+    "file-box": "^0.8.27",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "mongoose": "^5.4.20",
+    "node-machine-id": "^1.1.12",
+    "node-schedule": "^1.3.2",
+    "qrcode-terminal": "^0.12.0",
+    "superagent": "^5.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "@microsoft/recognizers-text-suite": "~1.2.7",
+    "bosonnlp": "^0.1.0",
+    "debug": "^4.1.1",
+    "nodemon": "^1.19.1",
+    "wechaty": "^0.38.4",
+    "wechaty-puppet": "^0.24.0",
+    "wechaty-puppet-padplus": "^0.6.2"
+  }
+}
