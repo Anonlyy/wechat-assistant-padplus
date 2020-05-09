@@ -43,9 +43,9 @@
 
 ## 效果预览
 
-![](/koa/assets/feature1.png)
-![](/koa/assets/feature2.png)
-![](/koa/assets/feature3.png)
+![](https://github.com/Anonlyy/wechat-assistant-padplus/tree/master/koa/assets/feature1.png)
+![](https://github.com/Anonlyy/wechat-assistant-padplus/tree/master/koa/assets/feature2.png)
+![](https://github.com/Anonlyy/wechat-assistant-padplus/tree/master/koa/assets/feature3.png)
 
 ## 安装
 
@@ -69,7 +69,7 @@ npm install
 由于本项目部分接口来自[天行数据](https://www.tianapi.com/signup.html?source=474284281)，所以需要注册自己的天行数据账号，并在TXAPIKEY位置填写自己的key，注册地址：[天行数据注册](https://www.tianapi.com/signup.html?source=474284281)
 
 ***注：*** 申请完天行数据账号后, 需对应申请一些API接口, 否则本项目的某些接口是没有权限访问的！
-![](/koa/assets/feature4.png)
+![](https://github.com/Anonlyy/wechat-assistant-padplus/tree/master/koa/assets/feature4.png)
 图中画框的即是必须申请的接口
 ```
 // 本文件是配置案例文件，请拷贝一份此文件后重命名为wechat.config.js，否则项目无法运行
