@@ -11,7 +11,7 @@ const path = require('path')
 async function getEveryDayRoomContent(sortId, endWord = '微信小助手') {
   let today = lib.formatDate(new Date()); //获取今天的日期
   let news = await api.getNews(sortId);
-  let content = `${today}\n${news}\n————————————${endWord}`;
+  let content = `${today}\n${news}\n——————————${endWord}`;
   return content;
 }
 /**
@@ -21,7 +21,7 @@ async function getEveryDayRoomContent(sortId, endWord = '微信小助手') {
 async function getEveryDayMoneyContent(sortId, endWord = '微信小助手') {
   let today = lib.formatDate(new Date()); //获取今天的日期
   let news = await api.getMoneyNews(sortId);
-  let content = `${today}\n${news}\n————————————${endWord}`;
+  let content = `${today}\n${news}\n——————————${endWord}`;
   return content;
 }
 /**
