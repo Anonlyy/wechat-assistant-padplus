@@ -37,15 +37,13 @@
 
 ## 微信小助手2.0全新升级
 
-让你闲置的微信号成为你的日常小秘书（没有闲置的也没关系，添加我的小助手微信号，给你分配一个小秘书）。
-
 帮你创建定时任务，每日提醒，纪念日提醒，当日提醒。当然基础的给女朋友的每日说功能也是必备的，而且小助手版每日说为那些非常优秀的程序员准备了多女朋友定时发送提醒功能。同时自带微信机器人功能，群资讯消息定时发送，群机器人聊天，垃圾分类，天气查询，土情话查询，老黄历查询，顺口溜查询等众多功能
 
 ## 效果预览
 
-![](https://github.com/Anonlyy/wechat-assistant-padplus/tree/master/koa/assets/feature1.png)
-![](https://github.com/Anonlyy/wechat-assistant-padplus/tree/master/koa/assets/feature2.png)
-![](https://github.com/Anonlyy/wechat-assistant-padplus/tree/master/koa/assets/feature3.png)
+![](https://raw.githubusercontent.com/Anonlyy/wechat-assistant-padplus/master/koa/assets/feature1.png)
+![](https://raw.githubusercontent.com/Anonlyy/wechat-assistant-padplus/master/koa/assets/feature2.png)
+![](https://raw.githubusercontent.com/Anonlyy/wechat-assistant-padplus/master/koa/assets/feature3.png)
 
 ## 安装
 
@@ -69,8 +67,9 @@ npm install
 由于本项目部分接口来自[天行数据](https://www.tianapi.com/signup.html?source=474284281)，所以需要注册自己的天行数据账号，并在TXAPIKEY位置填写自己的key，注册地址：[天行数据注册](https://www.tianapi.com/signup.html?source=474284281)
 
 ***注：*** 申请完天行数据账号后, 需对应申请一些API接口, 否则本项目的某些接口是没有权限访问的！
-![](https://github.com/Anonlyy/wechat-assistant-padplus/tree/master/koa/assets/feature4.png)
+![](https://raw.githubusercontent.com/Anonlyy/wechat-assistant-padplus/master/koa/assets/feature4.png)
 图中画框的即是必须申请的接口
+
 ```
 // 本文件是配置案例文件，请拷贝一份此文件后重命名为wechat.config.js，否则项目无法运行
 module.exports = {
@@ -174,6 +173,6 @@ npm run pm2-wechaty // 执行日志在/wechaty/log/目录中，如果发现掉�
 ## 注意
 
  本项目属于个人兴趣开发，开源出来是为了技术交流，请勿使用此项目做违反微信规定或者其他违法事情。
- 
+
  建议使用小号进行测试。
- 
+
