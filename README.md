@@ -167,7 +167,7 @@ npm run pm2-wechaty // 执行日志在/wechaty/log/目录中，如果发现掉�
 
 ### 5. 更多问题
 关于wechaty的相关接口，请
-[参考wechaty官网文档](https://docs.chatie.io/v/zh/)，如果以上还没有解决你的问题，请先往wechaty的项目[issues](https://github.com/Chatie/wechaty/issues)中查找是否存在相同的问题，由于本项目是依赖wechaty开发，所以启动时遇到的问题大部分是wechaty的。
+[参考wechaty官网文档](https://wechaty.js.org/v/zh/)，如果以上还没有解决你的问题，请先往wechaty的项目[issues](https://github.com/Chatie/wechaty/issues)中查找是否存在相同的问题，由于本项目是依赖wechaty开发，所以启动时遇到的问题大部分是wechaty的。
 
 
 ## 注意
