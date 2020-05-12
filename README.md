@@ -31,7 +31,7 @@
 
 话不多说, 那就开始搬砖了。
 
-#### 须知：**本项目必须向`wechaty`团队申请`token`, 否则该项目是无法使用的.** 申请流程参考: [申请token]([https://github.com/juzibot/Welcome/wiki/Everything-about-Wechaty#1Token-%E7%9A%84%E5%8A%9F%E8%83%BD%E5%92%8C%E7%94%B3%E8%AF%B7](https://github.com/juzibot/Welcome/wiki/Everything-about-Wechaty#1Token-的功能和申请))
+#### 须知：**本项目必须向`wechaty`团队申请`token`, 否则该项目是无法使用的.** 申请流程参考: [申请token](https://github.com/juzibot/Welcome/wiki/Everything-about-Wechaty#1Token-的功能和申请)
 
 ### 安装过程
 
