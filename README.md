@@ -47,18 +47,18 @@ git clone https://github.com/Anonlyy/wechat-assistant-padplus.git // 下载zip�
 cd wechat-assistant-padplus
 npm install
 ```
-#### 2、修改配置文件
 
-根目录下存在一个`wechat.config.example.js`文件，请copy一份到当前目录并修改文件名为`wechat.config.js`或直接修改文件名为`wechat.config.js`，配置文件中已对各字段说明清晰，项目出现问题时，请先对照配置内容自行排查问题原因
 
-#### 3.注册天行数据账号
+#### 2.注册天行数据账号
 
 由于本项目部分接口来自[天行数据](https://www.tianapi.com/signup.html?source=474284281)，所以需要注册自己的天行数据账号，并在`wechat.config.js`中的`TXAPIKEY`位置填写自己的key，注册地址：[天行数据注册](https://www.tianapi.com/signup.html?source=474284281)
 
 ***注：*** 申请完天行数据账号后, 需对应申请一些API接口, 否则本项目的某些接口是没有权限访问的
 ![feature4](http://image.xposean.top/20200512110139.png)
 图中画框的即是必须申请的接口
+#### 3、修改配置文件
 
+根目录下存在一个`wechat.config.example.js`文件，请copy一份到当前目录并修改文件名为`wechat.config.js`或直接修改文件名为`wechat.config.js`，配置文件中已对各字段说明清晰，项目出现问题时，请先对照配置内容自行排查问题原因
 ```javascript
 // 本文件是配置案例文件，请拷贝一份此文件后重命名为wechat.config.js，否则项目无法运行
 module.exports = {
@@ -177,9 +177,10 @@ npm run pm2-wechaty // 执行日志在/wechaty/log/目录中，如果发现掉�
 ![feature2](http://image.xposean.top/20200512110923.png)
 
 ![feature3](http://image.xposean.top/20200512110930.png)
-## 注意
 
- 本项目属于个人兴趣开发，开源出来是为了技术交流，请勿使用此项目做违反微信规定或者其他违法事情。
+### 注意事项
+
+ 本项目属于个人兴趣开发，开源出来纯粹是为了技术交流，请勿使用此项目做违反微信规定或者其他违法事情。
 
  建议使用小号进行测试。
 
