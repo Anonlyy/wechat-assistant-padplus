@@ -1,5 +1,5 @@
-const schedule = require('node-schedule')
-
+// const schedule = require('node-schedule')
+const cron = require('node-cron');
 /**
  * 设置定时器
  * @param {*} date 日期
@@ -29,7 +29,7 @@ const schedule = require('node-schedule')
 // 每周1的1点1分30秒触发 ：'30 1 1 * * 1'
 
 function setSchedule(date, callback) {
-  schedule.scheduleJob(date, callback)
+  cron.schedule(date, callback)
 }
 /**
  * 延时函数
