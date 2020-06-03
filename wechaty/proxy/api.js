@@ -303,9 +303,17 @@ async function getTXweather(city) {
       return obj;
     } else {
       console.log('获取天气接口失败', content.msg);
+      return {
+        todayWeather: '未知',
+        weatherTips: '暂无'
+      }
     }
   } catch (err) {
     console.log('获取天气接口失败', err);
+    return {
+      todayWeather: '未知',
+      weatherTips: '暂无'
+    }
   }
 }
 /**

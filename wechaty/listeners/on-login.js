@@ -45,15 +45,15 @@ async function setEveryDayTask(that, item) {
         lib.setSchedule(time, async () => {
           let daySocialNews = await common.getEveryDayRoomContent(7);
           console.log('今日国内新闻内容：', daySocialNews); 
-          lib.delay(10000);
+          lib.delay(15000);
           await contact.say('🗳️今日国内新闻内容\n' + daySocialNews);
           let dayMoneyNews = await common.getEveryDayMoneyContent();
           console.log('今日财经新闻：', dayMoneyNews); 
-          lib.delay(10000);
+          lib.delay(15000);
           await contact.say('✉️今日财经新闻：\n' + dayMoneyNews);
           let dayContent = await common.getEveryDayContent(item.memorialDay, item.city,item.endWord); 
           console.log('每日说任务开始工作,发送内容：', dayContent); 
-          lib.delay(10000);
+          lib.delay(15000);
           await contact.say(dayContent);
         });
       }
