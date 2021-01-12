@@ -1,6 +1,6 @@
 // bot.js
 import { Wechaty } from 'wechaty'
-import { PuppetPadplus } from 'wechaty-puppet-padplus'
+// import { PuppetPadplus } from 'wechaty-puppet-padplus'
 // import { PuppetPadpro  } from 'wechaty-puppet-padpro'
 import onScan from './listeners/on-scan'
 import onLogin from './listeners/on-login'
@@ -11,12 +11,19 @@ import onMessage from './listeners/on-message'
 const { WECHATYTOKEN } =  require('../wechat.config')
 
 
-const puppet = new PuppetPadplus({
-  token: WECHATYTOKEN
-})
+// const puppet = new PuppetPadplus({
+//   token: WECHATYTOKEN
+// })
 
-const bot = new Wechaty({ name: 'WechatEveryDay', puppet })
+// const bot = new Wechaty({ name: 'WechatEveryDay', puppet })
 
+
+const bot = new Wechaty({
+  puppet: 'wechaty-puppet-hostie',
+  puppetOptions: {
+    token: WECHATYTOKEN,
+  }
+});
 
 bot.on('scan', onScan)
 .on('login', onLogin)
